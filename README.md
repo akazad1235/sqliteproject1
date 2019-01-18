@@ -11,7 +11,7 @@ Show all Data
 <img src="Images/read.png" 
 alt="IMAGE ALT TEXT HERE" width="300" height="400" border="10" />
 
-imapyt database
+empty database
 
 <img src="Images/empty.png" 
 alt="IMAGE ALT TEXT HERE" width="300" height="400" border="10" />

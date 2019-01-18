@@ -1,4 +1,4 @@
-# sqliteproject1
+# AQlite Project
 sqlite project
 
 <img src="Images/insert.png" 

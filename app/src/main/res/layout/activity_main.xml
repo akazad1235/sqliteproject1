@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+    <EditText
+        android:id="@+id/ageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age" />
+    <EditText
+        android:id="@+id/genderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender" />
+    <EditText
+        android:id="@+id/idED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id" />
+
+    <Button
+        android:onClick="SaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:gravity="center"
+        android:textSize="30dp"
+        tools:ignore="OnClick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All Data"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:onClick="ShowData"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:onClick="UpdateData"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:onClick="DeleteData"
+        />
+
+
+
+
+</LinearLayout>
